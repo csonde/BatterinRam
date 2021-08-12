@@ -1,0 +1,8 @@
+*
+!src
+!*.cpp
+!include
+!*.h
+!README*
+!LICENSE*
+!CMakeLists.txt
