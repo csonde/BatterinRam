@@ -1,7 +1,7 @@
 # BatteringRam
 
 ## Description
-This software is a tool for planning low speed parking trajectories in parking lots for perpendicular parking with rectangular vehicles, while hitting as many objects as possible. Unfortunately it is not very good at the latter.
+This software is a tool for planning low speed parking trajectories between 2 points in a map filled with obstacles, while hitting as many objects as possible. Unfortunately it is not very good at the latter.
 
 It uses (almost) Reeds-Shepp Curves [1] and RTT [2].
 
@@ -22,7 +22,7 @@ The format is the following:
 <id> <p1x> <p1y> <p1z> <p2x>…
 ~~~
 - id can be 0, 1, 2.
-- 0 means rectangular parking spot (4 points).
+- 0 means rectangular parking spot (4 points), entrance is between first and last point.
 - 1 means rectangular obstacle (4 points).
 - 2 means linear wall (2 points).
 - The z coordinate is ignored.
