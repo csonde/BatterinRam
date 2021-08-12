@@ -1,7 +1,7 @@
 # BatteringRam
 
 ## Description
-This software is a tool for planning low speed parking trajectories between 2 points in a map filled with obstacles, while hitting as many objects as possible. Unfortunately it is not very good at the latter.
+This software is a tool for planning low speed trajectories between 2 points in a map filled with obstacles, while hitting as many objects as possible. Unfortunately it is not very good at the latter.
 
 It uses (almost) Reeds-Shepp Curves [1] and RTT [2].
 
