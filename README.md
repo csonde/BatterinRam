@@ -10,7 +10,7 @@ The software does not do (too much) sanity checks. The algorithm will not detect
 The algorithm is not optimal in any sense of the word. This is more like a “proof of concept” rather than a “cover all grounds”.
 
 ## Requirements
-[OpenCV](https://opencv.org/) should be installed on the system. A window handler should also be present through which OpenCV van create windows.
+[OpenCV](https://opencv.org/) should be installed on the system. A window handler should also be present through which OpenCV can create windows.
 
 ## Usage
 ~~~
