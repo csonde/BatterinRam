@@ -5,7 +5,7 @@ This software is a tool for planning low speed parking trajectories in parking l
 
 It uses (almost) Reeds-Shepp Curves [1] and RTT [2].
 
-The software does not do sanity checks. The algorithm will not detect if the parking is impossible, it will just keep on trying forever. It is assumed that the parking spots are of appropriate size. The algorithm is not supposed to handle extremities, so for example if there are obstacles directly in front of a parking spot, the algorithm may fail even if it is physically possible to execute the parking. Narrow spaces and tight corners may also give the algorithm a run for its money. It is also assumed that the vehicle speed is low enough so that Ackermann-geometry can be applied. Also, if you use right-handed 3D coordinates, you will get a view “from below”.
+The software does not do (too much) sanity checks. The algorithm will not detect if the parking is impossible, it will just keep on trying forever. It is assumed that the parking spots are of appropriate size. The algorithm is not supposed to handle extremities, so for example if there are obstacles directly in front of a parking spot, the algorithm may fail even if it is physically possible to execute the parking. Narrow spaces and tight corners may also give the algorithm a run for its money. It is also assumed that the vehicle speed is low enough so that Ackermann-geometry can be applied. Also, if you use right-handed 3D coordinates, you will get a view “from below”.
 
 The algorithm is not optimal in any sense of the word. This is more like a “proof of concept” rather than a “cover all grounds”.
 
