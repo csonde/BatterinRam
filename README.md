@@ -44,4 +44,4 @@ Optimal paths for a car that goes both forwards and backwards.
 Pacific Journal of Mathematics, 145(2):367-393, 1990.
 
 [2]
-LaValle, Steven M. (October 1998). "Rapidly-exploring random trees: A new tool for path planning" (PDF). Technical Report. Computer Science Department, Iowa State University (TR 98–11). [2]
+LaValle, Steven M. (October 1998). "Rapidly-exploring random trees: A new tool for path planning" (PDF). Technical Report. Computer Science Department, Iowa State University (TR 98–11).
