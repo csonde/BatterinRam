@@ -9,6 +9,8 @@ The software does not do (too much) sanity checks. The algorithm will not detect
 
 The algorithm is not optimal in any sense of the word. This is more like a “proof of concept” rather than a “cover all grounds”.
 
+The code is completely intentionally messed up, and contains antipatterns. Good luck with deciphering it. Also, I have never checked for memory leaks, so probably there is a lot. So, if you want to use this, you will probably have to work for it.
+
 ## Requirements
 [OpenCV](https://opencv.org/) should be installed on the system. A window handler should also be present through which OpenCV can create windows.
 
